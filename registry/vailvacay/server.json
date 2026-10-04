@@ -1,0 +1,13 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.cloudalien2025/vailvacay-directory",
+  "title": "VailVacay Directory",
+  "description": "Search 355+ curated Vail Valley, Colorado restaurants, hotels, activities, shops and services.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://vailvacay-connector.michael-b38.workers.dev/mcp"
+    }
+  ]
+}

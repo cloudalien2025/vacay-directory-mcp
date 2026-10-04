@@ -1,0 +1,13 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.cloudalien2025/1800deals-directory",
+  "title": "1-800Deals Directory",
+  "description": "Search a national directory of 1-800 / toll-free / vanity-number businesses and services.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://1800deals-connector.michael-b38.workers.dev/mcp"
+    }
+  ]
+}
